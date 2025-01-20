@@ -1,0 +1,369 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+
+
+/* Home Section */
+#home {
+  background-color: #000000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+#home h1 {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 45px;
+}
+
+#home img {
+  align-self: center;
+}
+
+#home p {
+  text-align: center;
+  padding-top: 5px;
+  font-family: 'Times New Roman', Times, serif;
+  color: silver;
+}
+
+/* Button Styling */
+.button1 {
+  text-align: center;
+}
+
+.button1 a {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #13c8f5;
+  background-color: #000000;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgb(83, 184, 96), 
+              0 0 15px rgba(52, 152, 219, 0.3), 
+              0 0 30px rgba(52, 152, 219, 0.2);
+  transition: all 0.2s ease-in-out;
+}
+
+.button1 a:hover {
+  background-color: rgb(152, 156, 156);
+  transform: translateY(-3px);
+}
+/* Reset Specific to About Us */
+.about-us * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* About Us Section Styling */
+.about-us {
+  padding: 40px 10%;
+  background-color: #000;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+/* Reset Specific to About Us */
+.about-us * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* About Us Section Styling */
+.about-us {
+  padding: 40px 10%;
+  background-color: #000;
+  color: #fff;
+}
+
+/* Container Styling */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Left Side: Image */
+.about-img img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Right Side: Content */
+.about-content {
+  flex: 1;
+  padding-left: 20px;
+  max-width: 500px;
+}
+
+.about-content h2 {
+  color: #f2a900;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.about-content p {
+  margin-bottom: 8px;
+}
+
+.availability {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.about-details p {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.about-details strong {
+  color: #f2a900;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .about-img img {
+      margin-bottom: 20px;
+      width: 80%;
+  }
+
+  .about-content {
+      padding-left: 0;
+  }
+}
+
+
+#skills {
+  background-color: #000000;
+  padding: 100px;
+}
+
+.EXP {
+  color: orange;
+  font-size: 40px;
+  text-align: center;
+  font-family: initial;
+}
+
+/* Image Container */
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.image {
+  width: 120px;
+  height: auto;
+  border: 2px solid #21caf5;
+  border-radius: 20px;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.image:hover {
+  transform: scale(1.1);
+  border-color: #f2a900
+}
+
+/* Education Section */
+.education-section {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #000;
+}
+
+.section-title {
+  margin-bottom: 30px;
+  color: orange;
+  font-size: 40px;
+  text-align: center;
+  font-family: initial;
+}
+
+.education-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.education-card {
+  background: #222;
+  border-radius: 10px;
+  padding: 30px;
+  width: 350px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.education-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 8px 15px rgba(255, 204, 0, 0.4);
+}
+
+.university-name {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.duration {
+  color: #ffcc00;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.degree {
+  color: #ddd;
+  font-size: 1rem;
+}
+
+/* Projects Section */
+.projects-section {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #000;
+}
+
+.projects-section h1 {
+  color: orange;
+  font-size: 40px;
+  text-align: center;
+  font-family: initial;
+  margin-bottom: 20px;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.project-card {
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  width: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+.project-card img {
+  width: 100%;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h2 {
+  font-size: 1.5rem;
+  margin: 0 0 10px;
+}
+
+.card-content a {
+  text-decoration: none;
+  color: #ff6f00;
+  font-weight: bold;
+}
+
+.card-content a:hover {
+  color: #ff9f40;
+}
+
+/* Contact Section */
+#contact{
+  background-color: #000;
+}
+.social-media h2{
+  color: orange;
+  font-size: 40px;
+  text-align: center;
+  font-family: initial;
+}
+
+.social-media a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid rgb(92, 217, 221);
+  border-radius: 50%;
+  font-size: 20px;
+  color: rgb(63, 200, 224);
+  text-decoration: none;
+  margin: 10px 5px;
+}
+
+.social-media a:hover {
+  background: rgb(54, 188, 221);
+  color: #081b29;
+  box-shadow: 0 0 20px rgb(170, 161, 157);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .education-card, .project-card {
+    width: 90%;
+  }
+
+  #home img {
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .education-card, .project-card {
+    width: 100%;
+  }
+}
